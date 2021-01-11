@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* OUR CSS */
+body {
+    background: rgba(0, 128, 0, 0.3);
+    background-color: #E5E5F7;
+
+
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    //background: #1abc9c;
+    color: black;
+    font-size: 66px;
+    font-weight: bold;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #F0F8FF 20px ), repeating-linear-gradient( #444CF755, #444CF7 );
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+
+}
+
+.currency-box {
+    margin: 20px 0;
+    background-image: linear-gradient(lightskyblue, aliceblue, cornflowerblue);
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.currency-amount {
+    margin: 25px 25px;
+    text-align: center;
+}
+
+.currency-calculate{
+    margin: 15px 0;
+}
+
+.currency-calculate button {
+    width: 100%;
+    padding: 10px;
+    background: #583d72;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.currecy-result {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
